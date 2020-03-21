@@ -409,7 +409,7 @@ public class Solution {
 
 该解法是这道题的最巧妙的解法，时间复杂度O（n），空间复杂度O（1）。这个方法的核心在于每次移动一批元素，具体思路如下图：
 
-![image-20200321165142365](C:\Users\Yuziao\AppData\Roaming\Typora\typora-user-images\image-20200321165142365.png)
+![image-20200321165142365](https://github.com/GAUnion/LeetCode-Weekly/blob/master/images/image-20200321165142365.png)
 
 该方法先把红色箭头移动完，再移动红色箭头的元素，一批一批的移动，就不会出现元素覆盖的问题了。
 
